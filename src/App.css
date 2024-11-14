@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #11071F !important;
+}
+html , body{
+    width: 100% !important;
+}
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer components {
+    .container {
+        @apply lg:w-[1345px] mx-auto md:w-[960px] sm:w-[640px] w-[320px] px-4;
+    }
+
+    @media (min-width: 528px) and (max-width: 630px) {
+        .custom-width {
+            width: 100%; /* Makes it responsive */
+        }
+    }
+    .slide-in {
+        animation: slideInFromLeft 3s ease-in-out forwards;
+    }
+
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}

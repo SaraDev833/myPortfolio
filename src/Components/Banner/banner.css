@@ -1,0 +1,38 @@
+.four .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h2 {
+    width:16ch;
+    border-right: 2px solid white;
+    margin: 4px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+/* Standard keyframes */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* WebKit-specific keyframes (for Safari and older browsers) */
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}

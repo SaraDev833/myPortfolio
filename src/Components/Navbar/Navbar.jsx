@@ -31,7 +31,7 @@ const Navbar = () => {
                 className={`sm:text-[20px] cursor-pointer m-0 font-medium font-Preahvihear text-white ${active === nav.id ? "border-b-2 border-lightPurple" : ""}`}
                 onClick={() => setActive(nav.id)}
               >
-                <a href={`#${nav.target}`} className="text-white"  style={{textDecoration :'none' }}>{nav.name}</a>
+                <a href={`#${nav.target}`} className="text-white" style={{ textDecoration: 'none' }}>{nav.name}</a>
               </li>
             );
           })}

@@ -2,9 +2,9 @@ import React from 'react'
 import './Showcase.css';
 import { MdOutlinePreview } from "react-icons/md";
 
-const Showchase = ({ imageLeft  , Title , image, detail}) => {
+const Showchase = ({ imageLeft, Title, image, detail }) => {
     return (
-    <div className={`flex ${imageLeft ? 'md:flex-row flex-col ' : 'md:flex-row-reverse flex-col' } items-center`} style={{width :'100%'}}>
+        <div className={`flex ${imageLeft ? 'md:flex-row flex-col ' : 'md:flex-row-reverse flex-col'} items-center`} style={{ width: '100%' }}>
 
             <div className="image_container ">
                 <div className="box">
@@ -19,14 +19,14 @@ const Showchase = ({ imageLeft  , Title , image, detail}) => {
             </div>
 
             {/* Project Details */}
-            <div className={`${imageLeft? '-ml-2': '-mr-2'} md:mt-16 mt-2`}>
+            <div className={`${imageLeft ? '-ml-2' : '-mr-2'} md:mt-16 mt-2`}>
                 <div
-                    style={{  height: 'auto' }}
+                    style={{ height: 'auto' }}
                     className="detail flex flex-col lg:gap-3  gap-2 lg:p-6 p-3 rounded-lg backdrop-blur-lg  sm:w-[400px] md:w-[400px] lg:w-[400px]  md:bg-purple-200/20 drop-shadow-lg bg-indigo-500/20"
                 >
                     <h2 className="text-white text-[14px]">{Title}</h2>
                     <p className="text-slate-200 text-[12px]">
-                      {detail}
+                        {detail}
                     </p>
                 </div>
             </div>

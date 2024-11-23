@@ -29,7 +29,7 @@ html , body{
 
     @media (min-width: 528px) and (max-width: 630px) {
         .custom-width {
-            width: 100%; /* Makes it responsive */
+            width: 100% !important; 
         }
     }
     .slide-in {

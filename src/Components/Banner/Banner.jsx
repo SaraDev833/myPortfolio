@@ -27,7 +27,9 @@ const Banner = ({ animation }) => {
                                 <div className="w-full flex items-center justify-center  mt-5 ">
                                     <button className="flex items-center justify-center cursor-pointer text-center px-4 py-2 bg-lightPurple text-white hover:bg-purple rounded-full gap-2 font-medium text-[14px] font-Preahvihear hover:text-slate-400 ">
                                         <PiDownloadSimpleFill />
-                                        Download Resume
+                                        <a href="/Resume.pdf" download="Resume_Sara.pdf" style={{textDecoration:'none' , color:'white'}} className="font-medium text-[14px] font-Preahvihear hover:text-slate-400">
+                                            Download Resume
+                                        </a>
                                     </button>
                                 </div>
                             </div>

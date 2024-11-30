@@ -2,7 +2,7 @@ import React from 'react'
 import './Showcase.css';
 import { MdOutlinePreview } from "react-icons/md";
 
-const Showchase = ({ imageLeft, Title, image, detail }) => {
+const Showchase = ({ imageLeft, Title, image, detail , link }) => {
     return (
         <div className={`flex ${imageLeft ? 'md:flex-row flex-col ' : 'md:flex-row-reverse flex-col'} items-center`} style={{ width: '100%' }}>
 
@@ -12,7 +12,7 @@ const Showchase = ({ imageLeft, Title, image, detail }) => {
                     <div className="overlay flex items-center justify-center">
                         <button className="flex items-center justify-center gap-2 py-2 px-3 bg-lightPurple text-white rounded-md opacity-100 z-50">
                             <MdOutlinePreview className="text-[20px] text-white font-medium" />
-                            <span className="text-[20px] font-medium font-Preahvihear text-white">Live</span>
+                            <a href= {link} rel="noopener noreferrer"target='_blank' className="text-[20px] font-medium font-Preahvihear text-white " style={{textDecoration: 'none'}}>Live</a>
                         </button>
                     </div>
                 </div>

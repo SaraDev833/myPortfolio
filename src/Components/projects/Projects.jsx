@@ -19,8 +19,9 @@ const Projects = () => {
             <div className="flex md:flex-row flex-col ">
               <Showchase imageLeft
                 Title='Laravel Project'
-                detail='I developed a full-stack e-commerce website that showcases both front-end and back-end skills. The project features user authentication, allowing customers to securely log in, manage profiles, and make purchases. Users can easily browse products, add them to the cart, and complete transactions through an integrated payment system. On the back-end, I implemented functionality for adding, updating, and deleting products, along with admin privileges for managing the catalog. For the front-end, I used Tailwind CSS to create a sleek, responsive design that adapts seamlessly to any device. .'
+                detail='I developed a full-stack e-commerce website that showcases both front-end and back-end skills. The project features user authentication, allowing customers to securely log in, manage profiles, and make purchases. Users can easily browse products, add them to the cart, and complete transactions through an integrated payment system. On the back-end, I implemented functionality for adding, updating, and deleting products, along with admin privileges for managing the catalog. For the front-end, I used Tailwind CSS to create a sleek, responsive design that adapts seamlessly to any device.'
                 image={Projects[0]}
+                link = "https://ecommerce.saradevsolutions.com/"
 
               />
             </div>
@@ -30,6 +31,7 @@ const Projects = () => {
                 Title='React Dashboard'
                 detail='I developed a responsive, data-driven dashboard using React, Formik, and Tailwind CSS to create a streamlined user experience. The dashboard features intuitive data management and visualization tools, with form handling seamlessly powered by Formik for smooth validation and submission. By leveraging Tailwind CSS, I ensured a sleek, fully responsive design that adapts flawlessly to all screen sizes.'
                 image={Projects[1]}
+                link = "https://data-vista-theta.vercel.app/"
               />
             </div>
 
@@ -38,8 +40,9 @@ const Projects = () => {
               <Showchase imageLeft
 
                 Title='API Integration'
-                detail='This project is a JavaScript-based web application that pulls data from a food API to display a variety of recipes and food-related information. By making real-time API calls, the app provides users with access to a rich selection of meals, ingredients, and cooking instructions. The interface is designed for easy navigation, allowing users to explore food options and discover new recipes. .'
+                detail='This project is a JavaScript-based web application that pulls data from a food API to display a variety of recipes and food-related information. By making real-time API calls, the app provides users with access to a rich selection of meals, ingredients, and cooking instructions. The interface is designed for easy navigation, allowing users to explore food options and discover new recipes.'
                 image={Projects[2]}
+                link = 'https://culinary-api.vercel.app/'
               />
             </div>
           </div>

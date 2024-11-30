@@ -6,7 +6,7 @@ import { CgMail } from "react-icons/cg";
 const Contact = () => {
     return (
         <div className='w-full' id='contact'>
-            <div className='container py-16 mx-auto w-full px-4'>
+            <div className='container py-9 mx-auto w-full px-4'>
                 <div className="flex flex-col items-center justify-center">
                     <Titile text='Contact me' />
                     <div className="text-center mt-4">

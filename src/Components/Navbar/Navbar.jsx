@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-darkBlue py-7 shadow-lg w-full">
+    <div className="bg-darkBlue  py-7 shadow-xl w-full border-b border-b-gray-700">
       <div className="container flex w-full items-center justify-between md:flex-row flex-col gap-3 mx-auto px-4">
         <div className="logo">
           <h2 className="text-white text-[28px] font-medium font-Preahvihear">
